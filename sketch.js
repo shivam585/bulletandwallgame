@@ -98,18 +98,22 @@ drawSprites()
 
 if(mousePressedOver(shooter1)){
     shootbullet1()
+    shield1.shapeColor=("blue")
 }
 
 if(mousePressedOver(shooter2)){
     shootbullet2()
+    shield2.shapeColor=("blue")
     }
 
     if(mousePressedOver(shooter3)){
         shootbullet3()
+        shield3.shapeColor=("blue")
         }
 
         if(mousePressedOver(shooter4)){
            shootbullet4()
+            shield4.shapeColor=("blue")
             }
 
 if(bulletgroup.isTouching(shield1)){
